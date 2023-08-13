@@ -1,16 +1,6 @@
 usuarios = []
 roles = ["administrador", "usuarios"]
 
-import tkinter as tk
-from tkinter import Messagebox
-
-def abrirventana():
-    ventana.withdraw()
-    win=tk.Toplevel()
-    win.geometry("380x300+1900+100")
-    win.configure(background="gray")
-    e5=tk.Lebel (win, text="Bienvenid@ al Hospital .........", bg="gray",fg="white" )
-    
 def registrar_usuario():
     nombre=input("Ingrese el Nombre del Usuario: ")
     apellido= input ("Ingrese Apellido: ")
