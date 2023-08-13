@@ -43,11 +43,7 @@ for usuario in usuarios:
 def ordenar_usuarios():
     criterio = input("ingrese el criterio de ordenamiento (nombre o apellido): ")
     if criterio not in ["nombre", "apellido"]:
-        print ("criterio no valido.")
-
-
-#integrantes : luna ruiz & ader diestra (borrador)
-
+        print 
 
 
         
